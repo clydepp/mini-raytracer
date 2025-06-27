@@ -1,8 +1,7 @@
 #ifndef COLOUR_H
 #define COLOUR_H
 
-#include "vec3.h"
-#include <iostream>
+#include "util.h"
 
 // aliasing colour
 using colour = vec3;

@@ -1,12 +1,31 @@
 CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\main.cc \
- C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\colour.h \
- C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\vec3.h \
- C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\util.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cmath \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h \
+ C:/msys64/ucrt64/include/math.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
  C:/msys64/ucrt64/include/c++/13.2.0/iosfwd \
@@ -14,13 +33,8 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cwchar \
- C:/msys64/ucrt64/include/wchar.h C:/msys64/ucrt64/include/corecrt.h \
- C:/msys64/ucrt64/include/_mingw.h C:/msys64/ucrt64/include/_mingw_mac.h \
- C:/msys64/ucrt64/include/_mingw_secapi.h \
- C:/msys64/ucrt64/include/vadefs.h \
- C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/wchar.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
- C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
  C:/msys64/ucrt64/include/swprintf.inl \
@@ -31,7 +45,7 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/stddef.h \
  C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/new \
@@ -50,12 +64,10 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/atomicity.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/errno.h \
- C:/msys64/ucrt64/include/sys/types.h C:/msys64/ucrt64/include/process.h \
+ C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/sys/types.h \
+ C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
- C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/signal.h \
+ C:/msys64/ucrt64/include/signal.h \
  C:/msys64/ucrt64/include/pthread_signal.h \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
@@ -70,7 +82,6 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
@@ -78,7 +89,6 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h \
  C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
@@ -98,12 +108,6 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
- C:/msys64/ucrt64/include/stdlib.h \
- C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
- C:/msys64/ucrt64/include/malloc.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
  C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
@@ -127,9 +131,38 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/cmath \
- C:/msys64/ucrt64/include/math.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/limits \
+ C:/msys64/ucrt64/include/c++/13.2.0/memory \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/align.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bit \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_ptr.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/tuple \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/allocated_ptr.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/concurrence.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/atomic_base.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/atomic_lockfree_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\vec3.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\colour.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\interval.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\ray.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\hittable.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\hittable_list.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\sphere.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
