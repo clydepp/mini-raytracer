@@ -1,5 +1,7 @@
 CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\main.cc \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\colour.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\vec3.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -125,6 +127,8 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/cmath \
+ C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
