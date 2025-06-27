@@ -20,4 +20,3 @@ void write_colour(std::ostream& out, const colour& pixel_colour) {
 }
 
 #endif
-
