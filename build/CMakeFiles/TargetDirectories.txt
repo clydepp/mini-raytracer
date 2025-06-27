@@ -1,0 +1,3 @@
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/build/CMakeFiles/simple_implement.dir
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/build/CMakeFiles/edit_cache.dir
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/build/CMakeFiles/rebuild_cache.dir

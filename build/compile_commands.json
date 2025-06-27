@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\simple_implement.dir\\main.cc.obj -c C:\\Users\\pangi\\Documents\\summer-projects-25\\mini-raytracer\\main.cc",
+  "file": "C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/main.cc",
+  "output": "CMakeFiles/simple_implement.dir/main.cc.obj"
+}
+]

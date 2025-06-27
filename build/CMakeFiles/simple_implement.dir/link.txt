@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\simple_implement.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\simple_implement.dir/objects.a @CMakeFiles\simple_implement.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\simple_implement.dir/objects.a -Wl,--no-whole-archive -o simple_implement.exe -Wl,--out-implib,libsimple_implement.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\simple_implement.dir\linkLibs.rsp
