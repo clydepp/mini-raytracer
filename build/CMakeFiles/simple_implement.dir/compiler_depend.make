@@ -167,6 +167,7 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/camera.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/colour.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/hittable.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/hittable_list.h \
@@ -510,6 +511,8 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h:
+
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/camera.h:
 
 C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/colour.h:
 
