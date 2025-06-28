@@ -158,6 +158,7 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\ray.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\camera.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\hittable.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\material.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
