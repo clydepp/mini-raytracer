@@ -9,7 +9,7 @@ I took interest in my year 2 IAC module, and this inspired me to design and writ
 ## Project aims
 * Improve my knowledge of C++
 * Understand the methods used in path/raytracing
-[] Eventually make it real-time, using CUDA and OpenGL OR an FPGA.
+* Eventually make it real-time, using CUDA and OpenGL OR an FPGA.
 
 ## Usage
 Go into the project folder and run these three commands:

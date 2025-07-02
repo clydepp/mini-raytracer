@@ -13,8 +13,8 @@ class aabb {
       // these two points are extrema - read my notes (reverse the intervals if needed)
 
       x = (a[0] <= b[0]) ? interval(a[0], b[0]) : interval(b[0], a[0]);
-      x = (a[1] <= b[1]) ? interval(a[1], b[1]) : interval(b[1], a[1]);
-      x = (a[2] <= b[2]) ? interval(a[2], b[2]) : interval(b[2], a[2]);
+      y = (a[1] <= b[1]) ? interval(a[1], b[1]) : interval(b[1], a[1]);
+      z = (a[2] <= b[2]) ? interval(a[2], b[2]) : interval(b[2], a[2]);
     }
 
     aabb(const aabb& box0, const aabb& box1) {
@@ -42,11 +42,11 @@ class aabb {
 
         if (t0 < t1) {
           if (t0 > ray_t.min) ray_t.min = t0;
-          if (t1 < ray_t.min) ray_t.min = t1;
+          if (t1 < ray_t.max) ray_t.max = t1;
         }
         else {
-          if (t0 < ray_t.min) ray_t.min = t0;
           if (t1 > ray_t.min) ray_t.min = t1;
+          if (t0 < ray_t.max) ray_t.max = t0;
         }
 
         if (ray_t.max <= ray_t.min) return false;
