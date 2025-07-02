@@ -8,9 +8,11 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h \
   C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bit \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/align.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/allocated_ptr.h \
@@ -59,10 +61,12 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
@@ -74,6 +78,7 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_ptr.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h \
@@ -167,6 +172,8 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/aabb.h \
+  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/bvh.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/camera.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/colour.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/hittable.h \
@@ -178,8 +185,6 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/util.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/vec3.h
 
-
-C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h:
 
 C:/msys64/ucrt64/include/_mingw_mac.h:
 
@@ -203,11 +208,17 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.h:
 
 C:/msys64/ucrt64/include/_mingw_off_t.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/algorithm:
+
 C:/msys64/ucrt64/include/_mingw_stat64.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h:
 
 C:/msys64/ucrt64/include/_timeval.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr.h:
 
@@ -218,6 +229,10 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h:
 C:/msys64/ucrt64/include/c++/13.2.0/bit:
 
 C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h:
 
@@ -233,15 +248,11 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h:
 
@@ -266,8 +277,6 @@ C:/msys64/ucrt64/include/pthread_signal.h:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h:
 
@@ -297,6 +306,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.tcc:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/cctype:
@@ -315,19 +326,23 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/cmath:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h:
 
@@ -348,6 +363,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf_iterator.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_ptr.h:
 
@@ -483,6 +500,8 @@ C:/msys64/ucrt64/include/sec_api/stdio_s.h:
 
 C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
 
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/bvh.h:
+
 C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
 
 C:/msys64/ucrt64/include/signal.h:
@@ -512,6 +531,8 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h:
+
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/aabb.h:
 
 C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/camera.h:
 

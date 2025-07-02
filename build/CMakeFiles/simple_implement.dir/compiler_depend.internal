@@ -9,9 +9,11 @@ CMakeFiles/simple_implement.dir/main.cc.obj
  C:/msys64/ucrt64/include/_mingw_secapi.h
  C:/msys64/ucrt64/include/_mingw_stat64.h
  C:/msys64/ucrt64/include/_timeval.h
+ C:/msys64/ucrt64/include/c++/13.2.0/algorithm
  C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h
  C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h
  C:/msys64/ucrt64/include/c++/13.2.0/bit
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/align.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/allocated_ptr.h
@@ -60,10 +62,12 @@ CMakeFiles/simple_implement.dir/main.cc.obj
  C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_atomic.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h
@@ -75,6 +79,7 @@ CMakeFiles/simple_implement.dir/main.cc.obj
  C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc
  C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf_iterator.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_ptr.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h
@@ -168,6 +173,8 @@ CMakeFiles/simple_implement.dir/main.cc.obj
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
+ C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/aabb.h
+ C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/bvh.h
  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/camera.h
  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/colour.h
  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/hittable.h

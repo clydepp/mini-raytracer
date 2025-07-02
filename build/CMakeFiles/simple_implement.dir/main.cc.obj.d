@@ -156,17 +156,24 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\colour.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\interval.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\ray.h \
- C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\camera.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\bvh.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\aabb.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\hittable.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\hittable_list.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\camera.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\material.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
- C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\hittable_list.h \
- C:/msys64/ucrt64/include/c++/13.2.0/vector \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\sphere.h
