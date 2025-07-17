@@ -182,6 +182,7 @@ CMakeFiles/simple_implement.dir/main.cc.obj: C:/Users/pangi/Documents/summer-pro
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/material.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/ray.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/sphere.h \
+  C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/texture.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/util.h \
   C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/vec3.h
 
@@ -547,6 +548,8 @@ C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/interval.h:
 C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/material.h:
 
 C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/ray.h:
+
+C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/texture.h:
 
 C:/Users/pangi/Documents/summer-projects-25/mini-raytracer/util.h:
 

@@ -6,6 +6,7 @@
 #include "hittable_list.h"
 #include "material.h"
 #include "sphere.h"
+#include "texture.h"
 
 colour ray_colour(const ray& r, const hittable& world) {
   hit_record rec;
@@ -19,8 +20,11 @@ colour ray_colour(const ray& r, const hittable& world) {
 int main(){
   hittable_list world;
 
-  auto ground_material = make_shared<lambertian>(colour(0.5, 0.5, 0.5));
-  world.add(make_shared<sphere>(point3(0,-1000,0), 1000, ground_material));
+  auto checker = make_shared<checker_texture>(0.32, colour(.2, .3, .1), colour(.9, .9, .9));
+  world.add(make_shared<sphere>(point3(0, -1000, 0), 1000, make_shared<lambertian>(checker)));
+
+//   auto ground_material = make_shared<lambertian>(colour(0.5, 0.5, 0.5));
+//   world.add(make_shared<sphere>(point3(0,-1000,0), 1000, ground_material));
 
   for (int a = -2; a < 2; a++) {
       for (int b = -2; b < 2; b++) {
