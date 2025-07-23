@@ -172,6 +172,18 @@ CMakeFiles/simple_implement.dir/main.cc.obj: \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\camera.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\material.h \
  C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\texture.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\rtw_stb_image.h \
+ C:\Users\pangi\Documents\summer-projects-25\mini-raytracer\external/stb_image.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/math.h \
+ C:/msys64/ucrt64/include/assert.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/emmintrin.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xmmintrin.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mmintrin.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
